@@ -7,6 +7,7 @@ const newQuoteBtn = document.getElementById("new-quote");
 const loader = document.getElementById("loader");
 let apiErrorRetries = 0;
 
+// test
 function showLoadingSpinner() {
   loader.hidden = false;
   quoteContainer.hidden = true;
